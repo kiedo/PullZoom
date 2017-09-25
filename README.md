@@ -8,9 +8,12 @@
 
 卫星导航菜单<br/>
 
-    <img src='screenshot/ezgif.com-crop.gif'/>
+<img src='screenshot/ezgif.com-crop.gif'/>
+
 <br/>
 
-手势密码锁<br/>
+手势密码锁
+
+<br/>
     <img src='screenshot/20170921091221720.gif'/>
 <br/>
