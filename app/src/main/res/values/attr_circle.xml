@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="fistColor" format="color" />
+    <attr name="secondeColor" format="color" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="speed" format="integer" />
+    <declare-styleable name="CirclleView">
+        <attr name="fistColor" />
+        <attr name="secondeColor" />
+        <attr name="circleWidth" />
+        <attr name="speed" />
+    </declare-styleable>
+
+</resources>

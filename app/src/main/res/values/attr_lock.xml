@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="count" format="integer" />
+    <attr name="outerNorColor" format="color" />
+    <attr name="innerNorColor" format="color" />
+    <attr name="outerPressColor" format="color" />
+    <attr name="innerPressColor" format="color" />
+    <attr name="outerUpColor" format="color" />
+    <attr name="innerUpColor" format="color" />
+    <attr name="mlineColor" format="color" />
+    <attr name="width" format="dimension" />
+    <declare-styleable name="LockViewGroup">
+        <attr name="count" />
+        <attr name="outerNorColor" />
+        <attr name="innerNorColor" />
+        <attr name="outerPressColor" />
+        <attr name="innerPressColor" />
+        <attr name="outerUpColor" />
+        <attr name="innerUpColor" />
+        <attr name="mlineColor" />
+        <attr name="width" />
+    </declare-styleable>
+
+</resources>

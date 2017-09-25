@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.apple.top.StickyLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#33333333">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="我是top"
+            android:textColor="@color/colorAccent"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/toobar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33222222"
+        android:gravity="center"
+        android:text="我是toolbar"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+
+
+    <com.example.apple.top.MyListView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="我是scroll  1"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="我是scroll  1"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="我是scroll  2"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="我是scroll  1"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="我是scroll  3"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="我是scroll  4"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="我是scroll  5"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="我是scroll  6"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </com.example.apple.top.MyListView>
+
+
+</com.example.apple.top.StickyLayout>

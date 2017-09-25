@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.example.apple.pullzoom"
+        minSdkVersion 21
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    greendao {
+        schemaVersion 6
+        daoPackage 'com.example.apple.orm.bean.dao'//设置DaoMaster、DaoSession、Dao包名
+        targetGenDir 'src/main/java'//设置DaoMaster、DaoSession、Dao目录
+    }
+
+
+}
+
+
+
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile 'com.android.support:support-v4:21.0.0'
+    compile 'com.google.android.gms:play-services:10.2.0'
+    compile 'com.android.support:recyclerview-v7:21.0.0'
+    compile 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'org.greenrobot:greendao:3.2.2'
+    compile 'net.zetetic:android-database-sqlcipher:3.5.6'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.nineoldandroids:library:2.4.0'
+}

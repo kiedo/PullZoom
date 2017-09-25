@@ -1,0 +1,31 @@
+<com.example.apple.decover.PlayerFramelayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/mPlayerFramelayout"
+    android:clickable="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        android:orientation="vertical"
+        tools:context="com.example.apple.decover.PlayFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="title" />
+
+        <TextView
+            android:background="@drawable/a"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="全屏fragment" />
+
+    </LinearLayout>
+</com.example.apple.decover.PlayerFramelayout>

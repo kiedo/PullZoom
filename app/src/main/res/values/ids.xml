@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selected_view" type="id" />
+    <item name="actionInfo_header" type="id" />
+    <item name="actionInfo_Title" type="id" />
+    <item name="actionInfo_SubTitle" type="id" />
+    <item name="actionInfo_Operator_ll" type="id" />
+    <item name="actionInfo_addFavorite" type="id" />
+    <item name="actionInfo_Listen" type="id" />
+    <item name="actionInfo_Share" type="id" />
+    <item name="actionInfo_time" type="id" />
+    <item name="actioninfo_first_ll" type="id" />
+    <item name="actioninf_second_ll" type="id" />
+    <item name="main_activity_container" type="id" />
+    <item name="main_activity_player" type="id" />
+
+    <item name="discover_mv_first" type="id"/>
+    <item name="discover_mv_second" type="id"/>
+    <item name="discover_mv_third" type="id"/>
+    <item name="discover_mv_four" type="id"/>
+    <item name="discover_mv_five" type="id"/>
+    <item name="discover_mv_six" type="id"/>
+
+    <item name="status_bar_id" type="id"/>
+</resources>
