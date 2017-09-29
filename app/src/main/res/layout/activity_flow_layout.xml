@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.apple.Custom.FlowLayoutViewGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light">
+
+
+        <TextView
+            style="@style/textStyle"
+            android:gravity="center"
+            android:text="上海" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="深圳" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="广州" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="工资高" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="小日本" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="伊拉克" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="英国" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="印度" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="成都" />
+        <TextView
+            style="@style/textStyle"
+            android:text="java" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="php" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="android" />
+
+        <TextView
+            style="@style/textStyle"
+            android:text="oc" />
+
+
+    </com.example.apple.Custom.FlowLayoutViewGroup>
+</RelativeLayout>

@@ -89,13 +89,22 @@
             <!-- </intent-filter> -->
         </activity>
         <activity android:name="com.example.apple.Custom.PlanetActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.example.apple.Custom.GalleryActivity">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
 
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
             <!--</intent-filter>-->
         </activity>
-        <activity android:name="com.example.apple.Custom.GalleryActivity">
+        <activity android:name="com.example.apple.Custom.FlowLayoutActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

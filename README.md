@@ -8,12 +8,20 @@
 
 卫星导航菜单<br/>
 
-<img src='screenshot/ezgif.com-crop.gif'/>
+<img src='screenshot/ezgif.com-crop.gif' height="800" width="480"  />
 
 <br/>
 
 手势密码锁
 
 <br/>
-    <img src='screenshot/20170921091221720.gif'/>
+    <img src='screenshot/20170921091221720.gif'  height="800" width="480" />
 <br/>
+
+
+流式布局
+
+<br/>
+    <img src='screenshot/flowlayout.png'  height="800" width="480" />
+<br/>
+
