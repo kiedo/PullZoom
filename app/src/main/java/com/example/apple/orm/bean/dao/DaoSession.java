@@ -19,7 +19,7 @@ import com.example.apple.orm.bean.dao.UserDao;
 /**
  * {@inheritDoc}
  * 
- * @see AbstractDaoSession
+ * @see org.greenrobot.greendao.AbstractDaoSession
  */
 public class DaoSession extends AbstractDaoSession {
 
