@@ -15,6 +15,7 @@ import android.view.ViewConfiguration;
 
 /**
  * Created by apple on 17/10/13.
+ * 图片缩放
  */
 
 public class ZoomView extends AppCompatImageView implements ScaleGestureDetector.OnScaleGestureListener, View.OnTouchListener {

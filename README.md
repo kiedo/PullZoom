@@ -25,3 +25,10 @@
     <img src='screenshot/flowlayout.png'  height="800" width="480" />
 <br/>
 
+
+
+图片缩放，查看大图
+
+<br/>
+    <img src='screenshot/zoom.gif'  height="800" width="480" />
+<br/>
