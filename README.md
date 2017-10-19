@@ -32,3 +32,10 @@
 <br/>
     <img src='screenshot/zoom.gif'  height="800" width="480" />
 <br/>
+
+
+圆角图片
+
+<br/>
+    <img src='screenshot/roundImg.png'  height="800" width="480" />
+<br/>

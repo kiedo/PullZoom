@@ -116,13 +116,22 @@
             <!-- </intent-filter> -->
         </activity>
         <activity android:name="com.example.apple.Custom.Matrix.MatrixActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.example.apple.Custom.Matrix.ZoomActivity">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
 
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
             <!--</intent-filter>-->
         </activity>
-        <activity android:name="com.example.apple.Custom.Matrix.ZoomActivity">
+        <activity android:name="com.example.apple.Custom.Matrix.DrawableActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
