@@ -8,21 +8,21 @@
 
 卫星导航菜单<br/>
 
-<img src='screenshot/ezgif.com-crop.gif' height="800" width="480"  />
+<img src='screenshot/ezgif.com-crop.gif' height="80" width="320"  />
 
 <br/>
 
 手势密码锁
 
 <br/>
-    <img src='screenshot/20170921091221720.gif'  height="800" width="480" />
+    <img src='screenshot/20170921091221720.gif'  height="80" width="320" />
 <br/>
 
 
 流式布局
 
 <br/>
-    <img src='screenshot/flowlayout.png'  height="800" width="480" />
+    <img src='screenshot/flowlayout.png'  height="80" width="320" />
 <br/>
 
 
@@ -30,19 +30,19 @@
 图片缩放，查看大图
 
 <br/>
-    <img src='screenshot/zoom.gif'  height="800" width="480" />
+    <img src='screenshot/zoom.gif'  height="80" width="320" />
 <br/>
 
 
 圆角图片
 
 <br/>
-    <img src='screenshot/roundImg.png'  height="800" width="480" />
+    <img src='screenshot/roundImg.png'  height="80" width="320" />
 <br/>
 
 仿今日头条滑动title
 
 <br/>
-    <img src='screenshot/news_title.gif'  height="800" width="480" />
+    <img src='screenshot/news_title.gif'  height="80" width="320" />
 <br/>
 
