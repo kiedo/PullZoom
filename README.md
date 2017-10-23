@@ -39,3 +39,10 @@
 <br/>
     <img src='screenshot/roundImg.png'  height="800" width="480" />
 <br/>
+
+仿今日头条滑动title
+
+<br/>
+    <img src='screenshot/news_title.gif'  height="800" width="480" />
+<br/>
+
