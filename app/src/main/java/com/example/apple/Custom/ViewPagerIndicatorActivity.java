@@ -14,18 +14,18 @@ import com.example.apple.pullzoom.R;
 
 /**
  * ViewPagerIndicator指示器
+ *
+ * @author
  */
 public class ViewPagerIndicatorActivity extends AppCompatActivity {
 
-    String[] titles = {"我爱北京", "北京", "十九大", "国贸", "中关村", "百度", "鸟窝", "天安门", "毛爹爹"};
+    String[] titles = {"我爱北京", "北京", "十九大", "北京是我家", "国贸", "中关村", "百度", "鸟窝", "天安门", "毛爹爹"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_pager_indicator);
-
-
-        ViewPagerIndicator indicator = (ViewPagerIndicator) findViewById(R.id.indicator);
+        TabIndicator indicator = (TabIndicator) findViewById(R.id.indicator);
         ViewPager mViewPager = (ViewPager) findViewById(R.id.viewpager);
         mViewPager.setAdapter(new PagerAdapter() {
             @Override
@@ -52,7 +52,7 @@ public class ViewPagerIndicatorActivity extends AppCompatActivity {
             public Object instantiateItem(ViewGroup container, int position) {
 
                 TextView textView = new TextView(getApplication());
-                textView.setText(titles[position] + " "+position);
+                textView.setText(titles[position] + " " + position);
                 textView.setTextColor(Color.RED);
                 textView.setBackgroundColor(Color.GRAY);
                 container.addView(textView);

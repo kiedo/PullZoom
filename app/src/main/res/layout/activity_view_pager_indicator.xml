@@ -6,10 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.example.apple.Custom.ViewPagerIndicator
+    <com.example.apple.Custom.TabIndicator
         android:id="@+id/indicator"
         android:layout_width="match_parent"
         android:layout_height="80dp" />
+
+
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"
