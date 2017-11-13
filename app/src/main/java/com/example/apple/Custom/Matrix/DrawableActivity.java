@@ -1,20 +1,17 @@
 package com.example.apple.Custom.Matrix;
 
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Gravity;
-import android.widget.ImageView;
 
-import com.example.apple.pullzoom.R;
-
+import com.example.apple.R;
 public class DrawableActivity extends AppCompatActivity {
 
     @Override

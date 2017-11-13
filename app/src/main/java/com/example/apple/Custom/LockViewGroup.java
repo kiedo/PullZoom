@@ -14,7 +14,7 @@ import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -104,6 +104,7 @@ public class LockViewGroup extends ViewGroup {
                     int w = (int) typedArray.getDimension(typedArray.getIndex(i), 50);
                     break;
 
+                default:
 
             }
 
@@ -223,6 +224,8 @@ public class LockViewGroup extends ViewGroup {
                     }
                 }, 200);
                 break;
+
+            default:
         }
         invalidate();
         return true;
@@ -243,7 +246,6 @@ public class LockViewGroup extends ViewGroup {
         if (lockItems == null) return;
         for (int i = 0; i < lockItems.length; i++) {
             lockItems[i].setMode(LockItem.Mode.UP).invalidate();
-
             if (lockItems[i].getTag() == selectLockViews.get(selectLockViews.size() - 1)) {
                 //去掉最后一个箭头
                 lockItems[i].setAngle(-1).invalidate();

@@ -4,11 +4,10 @@ import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 import java.util.List;
 import java.util.concurrent.Executors;

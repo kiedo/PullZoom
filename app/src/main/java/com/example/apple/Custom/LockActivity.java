@@ -1,12 +1,9 @@
 package com.example.apple.Custom;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.util.TypedValue;
+import android.support.v7.app.AppCompatActivity;
 
-import com.example.apple.pullzoom.R;
-
+import com.example.apple.R;
 public class LockActivity extends AppCompatActivity {
 
     final static String TAG = "LockActivity";

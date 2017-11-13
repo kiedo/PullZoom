@@ -7,7 +7,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

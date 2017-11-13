@@ -6,7 +6,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.apple.pullzoom.ListviewMActiviy;
-import com.example.apple.pullzoom.R;
 import com.example.apple.pullzoom.ScrollViewActivity;
 import com.example.apple.pullzoom.reflash.ReflashActivity;
 

@@ -1,7 +1,6 @@
 package com.example.apple.Custom;
 
 import android.content.Context;
-import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
@@ -10,7 +9,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,7 +17,7 @@ import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 
 /**
@@ -100,7 +98,7 @@ public class TabIndicator2 extends HorizontalScrollView implements OnPageChangeL
             addTab(i, pager.getAdapter().getPageTitle(i).toString());
         }
 
-        changeStats();
+        changeStatus();
     }
 
     private void addTab(final int position, String title) {
@@ -120,7 +118,7 @@ public class TabIndicator2 extends HorizontalScrollView implements OnPageChangeL
         tabsContent.addView(tab);
     }
 
-    private void changeStats() {
+    private void changeStatus() {
         for (int i = 0; i < tabCount; i++) {
             ViewGroup childAt = (ViewGroup) tabsContent.getChildAt(i);
             TextView newsText = (TextView) childAt.getChildAt(0);
@@ -170,7 +168,7 @@ public class TabIndicator2 extends HorizontalScrollView implements OnPageChangeL
             listener.onPageSelected(position);
         }
         currentitem = position;
-        changeStats();
+        changeStatus();
 
     }
 

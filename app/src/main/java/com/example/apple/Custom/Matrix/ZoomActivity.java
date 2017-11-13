@@ -1,15 +1,14 @@
 package com.example.apple.Custom.Matrix;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
-
 public class ZoomActivity extends AppCompatActivity {
 
     @Override

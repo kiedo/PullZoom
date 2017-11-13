@@ -11,6 +11,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Toast;
 
+import com.example.apple.R;
+
 public class ListviewMActiviy extends AppCompatActivity {
 
     @Override

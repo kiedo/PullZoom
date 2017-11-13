@@ -6,7 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 import com.example.apple.rxjava.bean.User;
 
 import java.util.ArrayList;
@@ -38,7 +38,7 @@ import io.reactivex.observables.ConnectableObservable;
 import io.reactivex.schedulers.Schedulers;
 import io.reactivex.subjects.PublishSubject;
 import io.reactivex.subjects.ReplaySubject;
-
+import com.example.apple.R;
 public class RXActivity extends AppCompatActivity {
 
     final String TAG = "RXActivity";

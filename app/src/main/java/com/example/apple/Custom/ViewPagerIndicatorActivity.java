@@ -1,17 +1,16 @@
 package com.example.apple.Custom;
 
 import android.graphics.Color;
+import android.os.Bundle;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.apple.pullzoom.R;
-
+import com.example.apple.R;
 /**
  * ViewPagerIndicator指示器
  *

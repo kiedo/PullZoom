@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 /**
  * Created by apple on 17/9/11.

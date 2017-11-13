@@ -13,7 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.Scroller;
 import android.widget.TextView;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 /**
  * Created by apple on 17/5/19.

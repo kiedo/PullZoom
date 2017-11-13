@@ -1,26 +1,21 @@
 package com.example.apple.orm;
 
-import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.os.Binder;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
 import android.widget.LinearLayout;
 
-import com.bumptech.glide.Glide;
 import com.example.apple.App;
+import com.example.apple.R;
 import com.example.apple.orm.bean.User;
 import com.example.apple.orm.bean.dao.DaoSession;
 import com.example.apple.orm.bean.dao.UserDao;
-import com.example.apple.pullzoom.R;
 
 import java.util.List;
-
 public class ORMActivity extends AppCompatActivity {
 
     String TAG = "ORMActivity";

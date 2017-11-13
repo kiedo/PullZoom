@@ -1,15 +1,14 @@
 package com.example.apple.Custom;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.apple.pullzoom.R;
-
+import com.example.apple.R;
 public class GalleryActivity extends AppCompatActivity {
 
     GalleryHorizontalScrollView gallery;

@@ -10,9 +10,7 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 
-import com.example.apple.pullzoom.R;
-
-import java.io.BufferedReader;
+import com.example.apple.R;
 
 /**
  * Created by apple on 17/9/15.

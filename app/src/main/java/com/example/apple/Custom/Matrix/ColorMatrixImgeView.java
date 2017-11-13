@@ -13,7 +13,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.View;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 /**
  * Created by apple on 17/10/10.

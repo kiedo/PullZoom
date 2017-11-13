@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.example.apple.pullzoom.R;
+import com.example.apple.R;
 
 
 public class MyScrllerView extends ScrollView {
